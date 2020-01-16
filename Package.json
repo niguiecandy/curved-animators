@@ -1,0 +1,19 @@
+{
+  "name": "com.ngc6543.curvedanimators",
+  "version": "0.1.0",
+  "displayName": "Curved Animators",
+  "description": "Simple Animation with AnimationCurves",
+  "unity": "2017.1",
+  "dependency": {},
+  "keywords": [
+    "Animation",
+    "Scripting"
+  ],
+  "author": {
+    "name": "Chaehyeok Lim",
+    "url": "https://github.com/niguiecandy/curved-animators"
+  },
+  "dependencies": {
+    "com.ngc6543.core": "0.1.0"
+  }
+}
