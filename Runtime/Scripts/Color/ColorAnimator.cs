@@ -19,10 +19,14 @@ namespace NGC6543
 
 		[Header("Debug")]
 		
+		#if NGC6543_CORE_EXIST
 		[SerializeField, NotInteractable]
+		#endif
 		protected Color _initColor;
-		
-        [SerializeField, NotInteractable]
+
+		#if NGC6543_CORE_EXIST
+		[SerializeField, NotInteractable]
+		#endif
 		protected Color _currentColor;
 		
 

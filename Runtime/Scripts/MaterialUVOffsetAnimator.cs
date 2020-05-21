@@ -7,8 +7,9 @@ namespace NGC6543
 	public class MaterialUVOffsetAnimator : CurvedProgressAnimator
 	{
 		public enum UVAxis {NONE = 0x00, U = 0x01, V = 0x10, UV = U|V }
-		
+		#if NGC6543_CORE_EXIST
 		[ClampCurve(0f, 1f)]
+		#endif
 		[SerializeField] AnimationCurve _uCurve, _vCurve;
 		
 		[Header("Material Data")]
