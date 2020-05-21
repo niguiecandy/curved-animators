@@ -1,0 +1,20 @@
+{
+    "name": "NGC6543.CurvedAnimators",
+    "references": [
+        "GUID:493a61d8917914cab9573f50ced53a87"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.ngc6543.core",
+            "expression": "0.1",
+            "define": "NGC6543_CORE_EXIST"
+        }
+    ]
+}

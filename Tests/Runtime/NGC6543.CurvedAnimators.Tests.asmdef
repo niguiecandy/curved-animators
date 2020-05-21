@@ -1,0 +1,14 @@
+{
+    "name": "NGC6543.CurvedAnimators.Tests",
+    "references": [
+        "GUID:1c70e337f654e43acbc9152c6a9fe04c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
